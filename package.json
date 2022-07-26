@@ -1,0 +1,31 @@
+{
+  "name": "doc.sehub.jp",
+  "version": "1.0.0",
+  "description": "SeHub.JPのドキュメント集",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "react",
+        "react-dom"
+      ]
+    }
+  },  
+  "keywords": [
+    "doc",
+    "sehub"
+  ],
+  "author": "SeHub.JP",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
