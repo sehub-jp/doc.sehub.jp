@@ -7,6 +7,9 @@ export default defineConfig({
   description: 'SeHub.JPのドキュメント集',
   head: [],
   lastUpdated: true,
+  markdown: {
+    lineNumbers: true,
+  },
 
   themeConfig: {
     socialLinks: [
@@ -17,10 +20,23 @@ export default defineConfig({
       {
         text: 'JAVA',
         items: [
-          { text: 'Spring Boot', link: '/java/springboot' },
+          { text: 'Spring Boot', link: '/java/springboot/' },
         ],
       }
     ],
+
+    sidebar: {
+      '/java/springboot/': [
+        {
+          text: 'SpringBoot紹介',
+          collapsible: true,
+          items: [
+            { text: 'Spring Bootってなに？', link: '/java/springboot/' },
+            { text: 'クイックスタート', link: '/java/springboot/boot-quick-start' },
+          ],
+        },
+      ],
+    },
     
     editLink: {
       pattern: '',

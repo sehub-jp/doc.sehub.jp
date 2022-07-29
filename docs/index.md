@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Spring Boot
-      link: /java/springboot
+      link: /java/springboot/
     - theme: alt
       text: View on GitHub
       link: https://github.com/sehub-jp/doc.sehub.jp.git
