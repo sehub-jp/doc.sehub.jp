@@ -39,7 +39,7 @@ export default defineConfig({
     },
     
     editLink: {
-      pattern: '',
+      pattern: 'https://github.com/sehub-jp/doc.sehub.jp/edit/main/docs/:path',
       text: 'GitHubで編集',
     },
     lastUpdatedText: '最終更新',
