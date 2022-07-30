@@ -44,7 +44,7 @@ Java        : **17**
 
 ## 8. Artifact Id を入力します
 ![Artifact Id設定](/public/spring-boot/spring-boot-new-8.png)
-自由に設定すればいい、いちおう `spring-boot-turorial` にします。
+自由に設定すればいい、いちおう `spring-boot-tutorial` にします。
 ![Artifact Id設定](/public/spring-boot/spring-boot-new-8.1.png)
 
 ## 9. パケージ種類を選択します
