@@ -35,6 +35,13 @@ export default defineConfig({
             { text: 'クイックスタート', link: '/java/springboot/boot-quick-start' },
           ],
         },
+        {
+          text: 'Thymeleaf',
+          collapsible: true,
+          items: [
+            { text: 'Thymeleafってなに？', link: '/java/springboot/thymeleaf/' },
+          ]
+        },
       ],
     },
     
