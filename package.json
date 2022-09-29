@@ -17,7 +17,7 @@
         "react-dom"
       ]
     }
-  },  
+  },
   "keywords": [
     "doc",
     "sehub"
@@ -26,6 +26,6 @@
   "license": "MIT",
   "devDependencies": {
     "vitepress": "1.0.0-alpha.4",
-    "vue": "^3.2.37"
+    "vue": "^3.2.38"
   }
 }
