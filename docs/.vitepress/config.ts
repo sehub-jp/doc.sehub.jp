@@ -39,6 +39,12 @@ export default defineConfig({
           { text: 'Laravel', link: '/php/laravel/' },
         ],
       },
+      {
+        text: 'AWS',
+        items: [
+          { text: 'VPC', link: '/aws/vpc/' },
+        ],
+      },
     ],
 
     sidebar: {
@@ -104,6 +110,18 @@ export default defineConfig({
             { text: 'Starter Kits', link: '/php/laravel/starter-kits' },
           ],
         },
+      ],
+
+      // AWS
+      '/aws/': [
+        {
+          text: 'VPC',
+          collapsible: true,
+          items: [
+            { text: 'VPC って何', link: '/aws/vpc/' },
+            { text: 'VPC の開始方法', link: '/aws/vpc/new-vpc'}
+          ],
+        }
       ],
     },
     
