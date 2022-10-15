@@ -43,6 +43,7 @@ export default defineConfig({
         text: 'AWS',
         items: [
           { text: 'VPC', link: '/aws/vpc/' },
+          { text: 'EC2', link: '/aws/ec2/' },
         ],
       },
     ],
@@ -120,6 +121,17 @@ export default defineConfig({
           items: [
             { text: 'VPC って何', link: '/aws/vpc/' },
             { text: 'VPC の開始方法', link: '/aws/vpc/new-vpc'}
+          ],
+        },
+        {
+          text: 'EC2',
+          collapsible: true,
+          items: [
+            { text: 'EC2 って何', link: '/aws/ec2/' },
+            { text: 'EC2 の開始方法', link: '/aws/ec2/new-ec2'},
+            { text: 'EC2 インスタンスに接続', link: '/aws/ec2/login'},
+            { text: 'Amazon Linux 2022 初期設定', link: '/aws/ec2/setup'},
+            { text: 'Nginx セットアップ', link: '/aws/ec2/nginx'}
           ],
         }
       ],
