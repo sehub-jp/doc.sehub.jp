@@ -36,6 +36,7 @@ export default defineConfig({
       {
         text: 'PHP',
         items: [
+          { text: 'PHP', link: '/php/' },
           { text: 'Laravel', link: '/php/laravel/' },
         ],
       },
@@ -60,6 +61,7 @@ export default defineConfig({
           text: 'コマンド',
           collapsed: true,
           items: [
+            { text: '基本コマンド', link: '/linux/cmd/base' },
             { text: 'ユーザー管理', link: '/linux/cmd/user' }
           ]
         },
@@ -102,6 +104,28 @@ export default defineConfig({
       ],
 
       // PHP
+      '/php/': [
+        {
+          text: 'PHP 紹介',
+          collapsible: true,
+          items: [
+            { text: 'PHP って何？', link: '/php/' },
+            { text: 'インストール', link: '/php/install' },
+          ],
+
+        },
+        {
+          text: 'Composer 紹介',
+          collapsible: true,
+          items: [
+            { text: 'Composer って何？', link: '/php/composer/' },
+            { text: 'インストール', link: '/php/composer/install' },
+          ],
+
+        }
+      ],
+
+      // Laravel
       '/php/laravel/': [
         {
           text: '始めましょう',
