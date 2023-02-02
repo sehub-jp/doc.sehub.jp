@@ -6,7 +6,7 @@
 ## インスタンスを起動
 ### 1. 「インスタンスを起動」ボタン押下
 
-![インスタンスを起動](/public/aws/ec2/new-instans.png)
+![インスタンスを起動](/aws/ec2/new-instans.png)
 
 ### 2. 設定値
 
@@ -39,7 +39,7 @@
     #### キーペア作成
     1. 「新しいキーペアの作成」押下
 
-        ![新しいキーペアの作成](/public/aws/ec2/new-key.png)
+        ![新しいキーペアの作成](/aws/ec2/new-key.png)
 
     1. 詳細設定
         1. キーペア名
@@ -56,7 +56,7 @@
 
             `PuTTY` を使う場合は `.ppk` にしましょう。
 
-        ![キーペア作成詳細設定](/public/aws/ec2/new-key-detail.png)
+        ![キーペア作成詳細設定](/aws/ec2/new-key-detail.png)
 
         こんな感じ、「キーペアを作成」押下で新しいキーペアをダウンロードします。
 
@@ -93,4 +93,4 @@
 
     起動後、下記のように表示されます。
     
-    ![インスタンス起動後](/public/aws/ec2/ec2-instans.png)
+    ![インスタンス起動後](/aws/ec2/ec2-instans.png)

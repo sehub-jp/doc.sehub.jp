@@ -28,11 +28,11 @@ sudo timedatectl set-timezone Asia/Tokyo
 ## セキュリティグループ設定
 ### 「インバウンドルールの編集」を開く
 
-![インバウンドルールの編集](/public/aws/ec2/security.png)
+![インバウンドルールの編集](/aws/ec2/security.png)
 
 ### HTTP と HTTPS のポートを開放
 
-![ポート開放](/public/aws/ec2/inband.png)
+![ポート開放](/aws/ec2/inband.png)
 
 ### ルールを保存
 

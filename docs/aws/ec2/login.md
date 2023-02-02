@@ -5,16 +5,16 @@
 
 ## SSH で接続
 
-```bash
-chmod 600 XXXX.pem
-ssh -i XXXX.pem ec2-user@EC2インスタンスのIPアドレス
-```
-
 ::: tip
 キーペアファイルの権限が open すぎるとエラーになるので、`600` 権限で十分でしょう。
 
 `XXXX.pem` はインスタンス起動時指定したキーペアです。
 :::
+
+```bash
+chmod 600 XXXX.pem
+ssh -i XXXX.pem ec2-user@EC2インスタンスのIPアドレス
+```
 
 ## SSM 接続
 
@@ -35,7 +35,7 @@ chkconfig amazon-ssm-agent on
 
 1. 「ロールを作成」押下
 
-      ![ロールを作成](/public/aws/ec2/new-role.png)
+      ![ロールを作成](/aws/ec2/new-role.png)
 
 1. 信頼されたエンティティを選択
 
@@ -49,7 +49,7 @@ chkconfig amazon-ssm-agent on
 
       `SSM` で検索して、`AmazonEC2RoleforSSM` と `AmazonSSMManagedInstanceCore` を選択
 
-      ![ポリシー選択](/public/aws/ec2/policy.png)
+      ![ポリシー選択](/aws/ec2/policy.png)
 
       「次へ」押下
 
@@ -63,19 +63,19 @@ chkconfig amazon-ssm-agent on
 ### EC2インスタンスにSSMロール追加
 1. 「IAM ロールを変更」開く
 
-      ![IAM ロールを変更](/public/aws/ec2/add-role.png)
+      ![IAM ロールを変更](/aws/ec2/add-role.png)
 
 1. ロール更新
 
       作成した SSM ロールを選択して、「ロールの更新」押下
 
-      ![ロール更新](/public/aws/ec2/role-update.png)
+      ![ロール更新](/aws/ec2/role-update.png)
 
 ### AWS Systems Manager セットアップ
 
 1. 「Systems Manager」⇒「高速セットアップ」を開く
 
-      ![SSM セットアップ](/public/aws/ec2/ssm.png)
+      ![SSM セットアップ](/aws/ec2/ssm.png)
 
 2. Host Management の「作成」押下
 
@@ -83,10 +83,10 @@ chkconfig amazon-ssm-agent on
 
 ### EC2 インスタンスに接続
 
-![EC2 インスタンスに接続](/public/aws/ec2/ec2-login.png)
+![EC2 インスタンスに接続](/aws/ec2/ec2-login.png)
 
 `セッションマネージャ` タブの「接続」ボタン押下
 
-![セッションマネージャでログイン](/public/aws/ec2/session-login.png)
+![セッションマネージャでログイン](/aws/ec2/session-login.png)
 
 正常にログインできるはず、お楽しみに！
