@@ -21,6 +21,9 @@ ssh -i XXXX.pem ec2-user@EC2インスタンスのIPアドレス
 ### amazon-ssm-agentサービス起動
 SSM 接続は `amazon-ssm-agent` サービスが必要です。
 Amazon Linux 2022 でデフォルト上記サービスが未起動なので、起動しましょう。
+::: tip
+最新のバージョンでは `amazon-ssm-agent` サービスがインストールされているし、自動起動に設定されています。
+:::
 ```bash
 service amazon-ssm-agent start
 ```
