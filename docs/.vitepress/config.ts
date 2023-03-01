@@ -12,6 +12,8 @@ export default defineConfig({
   },
 
   themeConfig: {
+    outline: [2,3],
+    outlineTitle: "目次",
     socialLinks: [
       { icon: 'github', link: '//github.com/sehub-jp/doc.sehub.jp.git' },
     ],
@@ -71,7 +73,6 @@ export default defineConfig({
       '/db/postgresql/': [
         {
           text: 'PostgreSQL 紹介',
-          collapsible: true,
           items: [
             { text: 'PostgreSQLって何？', link: '/db/postgresql/' },
             { text: 'PostgreSQLの歴史', link: '/db/postgresql/history' }
@@ -79,7 +80,6 @@ export default defineConfig({
         },
         {
           text: 'インストール',
-          collapsible: true,
           items: [{ text: 'Amazon Linux2 でインストール', link: '/db/postgresql/install' }]
         },
       ],
@@ -88,7 +88,6 @@ export default defineConfig({
       '/java/springboot/': [
         {
           text: 'SpringBoot紹介',
-          collapsible: true,
           items: [
             { text: 'Spring Bootってなに？', link: '/java/springboot/' },
             { text: 'クイックスタート', link: '/java/springboot/boot-quick-start' },
@@ -96,7 +95,7 @@ export default defineConfig({
         },
         {
           text: 'Thymeleaf',
-          collapsible: true,
+          collapsed: false,
           items: [
             { text: 'Thymeleafってなに？', link: '/java/springboot/thymeleaf/' },
           ]
@@ -107,7 +106,6 @@ export default defineConfig({
       '/php/': [
         {
           text: 'PHP 紹介',
-          collapsible: true,
           items: [
             { text: 'PHP って何？', link: '/php/' },
             { text: 'インストール', link: '/php/install' },
@@ -116,7 +114,6 @@ export default defineConfig({
         },
         {
           text: 'Composer 紹介',
-          collapsible: true,
           items: [
             { text: 'Composer って何？', link: '/php/composer/' },
             { text: 'インストール', link: '/php/composer/install' },
@@ -129,7 +126,6 @@ export default defineConfig({
       '/php/laravel/': [
         {
           text: '始めましょう',
-          collapsible: true,
           items: [
             { text: 'インストール', link: '/php/laravel/install' },
             { text: 'Starter Kits', link: '/php/laravel/starter-kits' },
@@ -141,7 +137,6 @@ export default defineConfig({
       '/aws/': [
         {
           text: 'VPC',
-          collapsible: true,
           items: [
             { text: 'VPC って何', link: '/aws/vpc/' },
             { text: 'VPC の開始方法', link: '/aws/vpc/new-vpc'}
@@ -149,7 +144,7 @@ export default defineConfig({
         },
         {
           text: 'EC2',
-          collapsible: true,
+          collapsed: false,
           items: [
             { text: 'EC2 って何', link: '/aws/ec2/' },
             { text: 'EC2 の開始方法', link: '/aws/ec2/new-ec2'},
