@@ -61,10 +61,11 @@ export default defineConfig({
         },
         {
           text: 'コマンド',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '基本コマンド', link: '/linux/cmd/base' },
-            { text: 'ユーザー管理', link: '/linux/cmd/user' }
+            { text: 'ユーザー管理', link: '/linux/cmd/user' },
+            { text: 'その他コマンド', link: '/linux/cmd/other' }
           ]
         },
       ],

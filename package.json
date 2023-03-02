@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "git": "git add . && git commit -m '内容修正' && git push"
   },
   "pnpm": {
     "peerDependencyRules": {
