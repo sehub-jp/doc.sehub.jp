@@ -49,6 +49,12 @@ export default defineConfig({
           { text: 'EC2', link: '/aws/ec2/' },
         ],
       },
+      {
+        text: 'その他',
+        items: [
+          { text: 'Git', link: '/git/' }
+        ],
+      }
     ],
 
     sidebar: {
@@ -152,6 +158,22 @@ export default defineConfig({
             { text: 'EC2 インスタンスに接続', link: '/aws/ec2/login'},
             { text: 'Amazon Linux 2022 初期設定', link: '/aws/ec2/setup'},
             { text: 'Nginx セットアップ', link: '/aws/ec2/nginx'}
+          ],
+        }
+      ],
+
+      // Git
+      '/git/': [
+        {
+          text: 'Git紹介',
+          items: [
+            { text: 'Gitって何', link: '/git/' },
+          ],
+        },
+        {
+          text: 'GitHub紹介',
+          items: [
+            { text: 'GitHub', link: '/git/github' }
           ],
         }
       ],
