@@ -8,7 +8,7 @@ export default defineConfig({
   head: [
     [
       'script',
-      { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-M46V4QS105' }
+      { async: 'true', src: 'https://www.googletagmanager.com/gtag/js?id=G-M46V4QS105' }
     ],
     [
       'script',
@@ -58,6 +58,12 @@ export default defineConfig({
           { text: 'VPC', link: '/aws/vpc/' },
           { text: 'EC2', link: '/aws/ec2/' },
         ],
+      },
+      {
+        text: '開発環境整備',
+        items: [
+          { text: 'パッケージマネージャー', link: '/env/pkg/' }
+        ]
       },
       {
         text: 'その他',
@@ -170,6 +176,17 @@ export default defineConfig({
             { text: 'Nginx セットアップ', link: '/aws/ec2/nginx'}
           ],
         }
+      ],
+
+      // 環境整備
+      '/env/': [
+        {
+          text: 'パッケージマネージャー',
+          items: [
+            { text: 'パッケージマネージャー紹介', link: '/env/pkg/' },
+            { text: 'Homebrew', link: '/env/pkg/homebrew' },
+          ]
+        },
       ],
 
       // Git

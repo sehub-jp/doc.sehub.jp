@@ -1,12 +1,10 @@
 ---
 ---
-# パッケージマネジャー
-
-## Homebrew
-### 説明
+# Homebrew
+## 説明
 macOS（またはLinux）用パッケージマネージャー
 
-### インストール方法
+## インストール方法
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -20,13 +18,13 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-### コマンド説明
-#### バージョン確認
+## コマンド説明
+### バージョン確認
 ```bash
 brew -v
 ```
 
-#### パッケージインストール
+### パッケージインストール
 ```bash
 brew install [パッケージ名]
 ```
