@@ -5,7 +5,17 @@ export default defineConfig({
   title: 'Doc.SeHub.JP',
   titleTemplate: 'SeHub.JPのドキュメント集',
   description: 'SeHub.JPのドキュメント集',
-  head: [],
+  head: [
+    [
+      'script',
+      { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-M46V4QS105' }
+    ],
+    [
+      'script',
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-M46V4QS105');"
+    ]
+  ],
   lastUpdated: true,
   markdown: {
     lineNumbers: true,
