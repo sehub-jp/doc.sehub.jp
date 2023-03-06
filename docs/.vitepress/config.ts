@@ -185,6 +185,7 @@ export default defineConfig({
           items: [
             { text: 'パッケージマネージャー紹介', link: '/env/pkg/' },
             { text: 'Homebrew', link: '/env/pkg/homebrew' },
+            { text: 'pNpm', link: '/env/pkg/pnpm' },
           ]
         },
       ],
