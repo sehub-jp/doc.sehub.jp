@@ -62,13 +62,20 @@ export default defineConfig({
       {
         text: '開発環境整備',
         items: [
-          { text: 'パッケージマネージャー', link: '/env/pkg/' }
+          { text: 'パッケージマネージャー', link: '/env/pkg/' },
+          {
+            text: '開発ツール',
+            items: [
+              { text: 'VSCode', link: '/env/tool/vscode/' }
+            ]
+          }
         ]
       },
       {
         text: 'その他',
         items: [
-          { text: 'Git', link: '/git/' }
+          { text: 'Git', link: '/git/' },
+          { text: 'ショットキー', link: '/shortkey/macos' }
         ],
       }
     ],
@@ -179,13 +186,28 @@ export default defineConfig({
       ],
 
       // 環境整備
-      '/env/': [
+      '/env/pkg/': [
         {
           text: 'パッケージマネージャー',
           items: [
             { text: 'パッケージマネージャー紹介', link: '/env/pkg/' },
             { text: 'Homebrew', link: '/env/pkg/homebrew' },
             { text: 'pNpm', link: '/env/pkg/pnpm' },
+          ]
+        },
+      ],
+      '/env/tool/': [
+        {
+          text: 'VSCode',
+          collapsed: false,
+          items: [
+            { text: '紹介', link: '/env/tool/vscode/' },
+            {
+              text: '拡張機能',
+              items: [
+                { text: 'test', link: '/env/tool/vscode/test' },
+              ]
+            },
           ]
         },
       ],
@@ -205,6 +227,16 @@ export default defineConfig({
           ],
         }
       ],
+
+      // ShortKey
+      '/shortkey/': [
+        {
+          text: 'ショットキー',
+          items: [
+            { text: 'MacOS', link: './macos' }
+          ]
+        }
+      ],
     },
     
     editLink: {
@@ -217,5 +249,5 @@ export default defineConfig({
       // message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022 Doc.SeHub.JP'
     }
-  }
+  },
 })
