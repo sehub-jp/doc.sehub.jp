@@ -218,6 +218,7 @@ export default defineConfig({
           text: 'Git紹介',
           items: [
             { text: 'Gitって何', link: '/git/' },
+            { text: 'コマンド', link: '/git/command' },
           ],
         },
         {
