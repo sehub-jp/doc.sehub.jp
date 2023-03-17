@@ -75,7 +75,8 @@ export default defineConfig({
         text: 'その他',
         items: [
           { text: 'Git', link: '/git/' },
-          { text: 'ショットキー', link: '/shortkey/macos' }
+          { text: 'ショットキー', link: '/shortkey/macos' },
+          { text: 'Markdown', link: '/other/markdown' }
         ],
       }
     ],
@@ -234,7 +235,8 @@ export default defineConfig({
         {
           text: 'ショットキー',
           items: [
-            { text: 'MacOS', link: './macos' }
+            { text: 'MacOS', link: './macos' },
+            { text: 'Chrome', link: './chrome' }
           ]
         }
       ],
