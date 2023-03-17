@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,N as i}from"./chunks/framework.1e6a71f2.js";const p=JSON.parse('{"title":"GitHub紹介","description":"","frontmatter":{},"headers":[],"relativePath":"git/github.md","lastUpdated":1679022747000}'),o={name:"git/github.md"},r=i("",6),h=[r];function s(n,u,d,c,l,b){return e(),a("div",null,h)}const m=t(o,[["render",s]]);export{p as __pageData,m as default};
