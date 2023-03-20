@@ -240,6 +240,16 @@ export default defineConfig({
           ]
         }
       ],
+
+      // Other
+      '/other/': [
+        {
+          text: 'その他',
+          items: [
+            { text: 'Markdown', link: './markdown' }
+          ]
+        }
+      ],
     },
     
     editLink: {
