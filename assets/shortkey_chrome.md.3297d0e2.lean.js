@@ -1,1 +1,0 @@
-import{_ as e,c as a,o,N as t}from"./chunks/framework.0799945b.js";const u=JSON.parse('{"title":"Chrome","description":"","frontmatter":{},"headers":[],"relativePath":"shortkey/chrome.md","lastUpdated":1680236827000}'),r={name:"shortkey/chrome.md"},c=t("",5),d=[c];function h(n,s,_,i,m,l){return o(),a("div",null,d)}const b=e(r,[["render",h]]);export{u as __pageData,b as default};
