@@ -5,4 +5,4 @@
 
 ## SSGって何？
 
-SSG = Static Site Generators
+SSG = Static Site Generator（静的サイトジェネレータ）
