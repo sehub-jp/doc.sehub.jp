@@ -27,7 +27,7 @@
   "license": "MIT",
   "devDependencies": {
     "sitemap-ts": "^1.2.2",
-    "vitepress": "1.0.0-alpha.63",
+    "vitepress": "1.0.0-alpha.64",
     "vue": "^3.2.47"
   }
 }
