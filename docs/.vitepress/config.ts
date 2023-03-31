@@ -60,6 +60,12 @@ export default defineConfig({
         ],
       },
       {
+        text: 'OSS',
+        items: [
+          { text: 'Hugo', link: '/oss/hugo/' },
+        ]
+      },
+      {
         text: '開発環境整備',
         items: [
           { text: 'パッケージマネージャー', link: '/env/pkg/' },

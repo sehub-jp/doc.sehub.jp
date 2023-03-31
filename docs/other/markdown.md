@@ -2,6 +2,19 @@
 ---
 # Markdown
 
+## 画像
+### 構文
+``` md
+![alt用テキスト](画像URL)
+```
+### 実例
+#### md構文
+``` md
+![Markdownのロゴ](https://www.markdown.jp/assets/img/markdown-mark.png)
+```
+#### 効果
+![Markdownのロゴ](https://www.markdown.jp/assets/img/markdown-mark.png)
+
 ## ソースコード
 ### コードスパン
 `` ` `` (バッククォート)で囲む
