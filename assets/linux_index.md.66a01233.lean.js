@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as i,N as t}from"./chunks/framework.0799945b.js";const x=JSON.parse('{"title":"Linuxって何？","description":"","frontmatter":{},"headers":[],"relativePath":"linux/index.md","lastUpdated":1680083827000}'),l={name:"linux/index.md"},n=t("",10),r=[n];function o(d,s,h,c,u,p){return i(),e("div",null,r)}const b=a(l,[["render",o]]);export{x as __pageData,b as default};

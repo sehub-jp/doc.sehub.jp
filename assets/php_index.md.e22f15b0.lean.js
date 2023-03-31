@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,N as r}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"PHP 紹介","description":"","frontmatter":{},"headers":[],"relativePath":"php/index.md","lastUpdated":1680083827000}'),o={name:"php/index.md"},n=r("",6),p=[n];function s(c,h,d,_,i,l){return t(),a("div",null,p)}const m=e(o,[["render",s]]);export{f as __pageData,m as default};
