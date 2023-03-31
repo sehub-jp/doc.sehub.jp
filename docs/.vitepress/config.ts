@@ -192,6 +192,25 @@ export default defineConfig({
         }
       ],
 
+      // OSS
+      '/oss/': [
+        {
+          text: 'SSG',
+          items: [
+            {
+              text: 'Hugo',
+              link: '/oss/hugo/',
+              items: [
+                { text: 'インストール', link: './install' },
+                { text: '入門', link: './start' },
+              ]
+            },
+            { text: 'Hugo', link: '/oss/hugo/' },
+            { text: 'VitePress', link: '/oss/vitepress/' }
+          ],
+        }
+      ],
+
       // 環境整備
       '/env/pkg/': [
         {
