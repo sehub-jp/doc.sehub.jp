@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as e,N as n}from"./chunks/framework.0799945b.js";const m=JSON.parse('{"title":"入門","description":"","frontmatter":{},"headers":[],"relativePath":"oss/hugo/start.md","lastUpdated":1681448897000}'),t={name:"oss/hugo/start.md"},l=n("",17),o=[l];function r(i,p,c,d,h,u){return e(),s("div",null,o)}const C=a(t,[["render",r]]);export{m as __pageData,C as default};
