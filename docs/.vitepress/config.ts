@@ -101,6 +101,7 @@ export default defineConfig({
           items: [
             { text: '基本コマンド', link: '/linux/cmd/base' },
             { text: 'ユーザー管理', link: '/linux/cmd/user' },
+            { text: '権限関連', link: '/linux/cmd/permission' },
             { text: 'その他コマンド', link: '/linux/cmd/other' }
           ]
         },
@@ -162,7 +163,7 @@ export default defineConfig({
       // Laravel
       '/php/laravel/': [
         {
-          text: '始めましょう',
+          text: '入門',
           items: [
             { text: 'インストール', link: '/php/laravel/install' },
             { text: 'Starter Kits', link: '/php/laravel/starter-kits' },

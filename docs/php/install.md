@@ -3,15 +3,15 @@
 
 # PHP をインストール
 
-## Amazon Linux 2022 で PHP をインストール
+## Amazon Linux 2023 で PHP をインストール
 
 ### PHP バージョン確認
 ```bash
 dnf list php*
 ```
-![PHPバージョン確認](/public/php/al2022-php.png)
+![PHPバージョン確認](/public/php/al2023-php.png)
 
-最新の `PHP8.1` が入っていますね、Amazon Linux 2022 Good!
+最新の `PHP8.2` が入ってないですが、まあ、8.1 でもいいか、Amazon Linux 2023 Good!
 
 ### PHP インストール
 ```bash
