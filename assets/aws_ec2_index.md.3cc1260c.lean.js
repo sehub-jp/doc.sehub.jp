@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,N as r}from"./chunks/framework.45fdf5ea.js";const m=JSON.parse('{"title":"EC2 紹介","description":"","frontmatter":{},"headers":[],"relativePath":"aws/ec2/index.md","lastUpdated":1689381046000}'),o={name:"aws/ec2/index.md"},c=r("",5),n=[c];function s(_,i,d,l,h,p){return a(),t("div",null,n)}const u=e(o,[["render",s]]);export{m as __pageData,u as default};
