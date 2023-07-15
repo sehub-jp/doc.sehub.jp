@@ -206,7 +206,6 @@ export default defineConfig({
                 { text: '入門', link: './start' },
               ]
             },
-            { text: 'Hugo', link: '/oss/hugo/' },
             { text: 'VitePress', link: '/oss/vitepress/' }
           ],
         }
