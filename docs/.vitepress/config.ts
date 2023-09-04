@@ -284,7 +284,13 @@ export default defineConfig({
       pattern: 'https://github.com/sehub-jp/doc.sehub.jp/edit/main/docs/:path',
       text: 'GitHubで編集',
     },
-    lastUpdatedText: '最終更新',
+    lastUpdated: {
+      text: '最終編集',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     
     footer: {
       // message: 'Released under the MIT License.',
