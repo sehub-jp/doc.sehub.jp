@@ -20,6 +20,9 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
+  sitemap: {
+    hostname: 'https://doc.sehub.jp/'
+  },
 
   themeConfig: {
     outline: [2,3],
