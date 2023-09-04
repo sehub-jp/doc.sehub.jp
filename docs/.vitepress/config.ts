@@ -287,7 +287,7 @@ export default defineConfig({
     lastUpdated: {
       text: '最終編集',
       formatOptions: {
-        dateStyle: 'full',
+        dateStyle: 'medium',
         timeStyle: 'medium'
       }
     },
