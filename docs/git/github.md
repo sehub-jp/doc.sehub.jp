@@ -7,4 +7,8 @@ GitHubはGitの仕組みを利用したWebサービスです。
 ## SSH キーで GitHub に接続
 
 ### SSH キー作成
-# TODO
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+### SSH キーを GitHub に登録する
