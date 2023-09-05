@@ -34,7 +34,10 @@ export default defineConfig({
     nav: [
       {
         text: 'Linux',
-        link: '/linux/'
+        items: [
+          { text: '紹介', link: '/linux/' },
+          { text: 'Nginx', link: '/linux/nginx' }
+        ]
       },
       {
         text: 'データベース',
@@ -106,6 +109,13 @@ export default defineConfig({
             { text: 'ユーザー管理', link: '/linux/cmd/user' },
             { text: '権限関連', link: '/linux/cmd/permission' },
             { text: 'その他コマンド', link: '/linux/cmd/other' }
+          ]
+        },
+        {
+          text: 'Nginx',
+          collapsed: false,
+          items: [
+            { text: 'インストール', link: '/linux/nginx' }
           ]
         },
       ],
@@ -191,7 +201,6 @@ export default defineConfig({
             { text: 'EC2 の開始方法', link: '/aws/ec2/new-ec2'},
             { text: 'EC2 インスタンスに接続', link: '/aws/ec2/login'},
             { text: 'Amazon Linux 2022 初期設定', link: '/aws/ec2/setup'},
-            { text: 'Nginx セットアップ', link: '/aws/ec2/nginx'}
           ],
         }
       ],
