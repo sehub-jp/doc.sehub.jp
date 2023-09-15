@@ -300,6 +300,11 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     },
+    docFooter: {
+      prev: '前のページ',
+      next: '次のページ'
+    },
+    returnToTopLabel: 'Topへ戻る',
     
     footer: {
       // message: 'Released under the MIT License.',
