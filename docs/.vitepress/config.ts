@@ -33,10 +33,17 @@ export default defineConfig({
 
     nav: [
       {
-        text: 'Linux',
+        text: 'OS',
         items: [
-          { text: '紹介', link: '/linux/' },
-          { text: 'Nginx', link: '/linux/nginx' }
+          { text: 'Linux', link: '/os/linux/' },
+          { text: 'Windows', link: '/os/windows/' },
+        ]
+      },
+      {
+        text: 'サーバー',
+        items: [
+          { text: 'Nginx', link: '/server/nginx/' },
+          { text: 'Tomcat', link: '/server/tomcat/' }
         ]
       },
       {
@@ -95,8 +102,8 @@ export default defineConfig({
 
     sidebar: {
       
-      // Linux
-      '/linux/': [
+      // OS
+      '/os/linux/': [
         {
           text: 'Linux 紹介',
           items: [{ text: 'Linuxって何？', link: '/linux/' }]
@@ -110,12 +117,27 @@ export default defineConfig({
             { text: '権限関連', link: '/linux/cmd/permission' },
             { text: 'その他コマンド', link: '/linux/cmd/other' }
           ]
-        },
+        }
+      ],
+
+      // Server
+      '/server/': [
         {
           text: 'Nginx',
           collapsed: false,
           items: [
-            { text: 'インストール', link: '/linux/nginx' }
+            { text: '紹介', link: '/server/nginx/' },
+            { text: 'インストール', link: '/server/nginx/install' },
+            { text: '設定', link: '/server/nginx/setting' },
+          ]
+        },
+        {
+          text: 'Tomcat',
+          collapsed: false,
+          items: [
+            { text: '紹介', link: '/server/tomcat/' },
+            { text: 'インストール', link: '/server/tomcat/install' },
+            { text: '設定', link: '/server/tomcat/setting' },
           ]
         },
       ],
