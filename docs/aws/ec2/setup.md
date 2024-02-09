@@ -1,7 +1,7 @@
 ---
 ---
 
-# Amazon Linux 2022 初期設定
+# Amazon Linux 2023 初期設定
 
 ## タイムゾーン設定
 
@@ -28,11 +28,11 @@ sudo timedatectl set-timezone Asia/Tokyo
 ## セキュリティグループ設定
 ### 「インバウンドルールの編集」を開く
 
-![インバウンドルールの編集](/aws/ec2/security.png)
+![インバウンドルールの編集](./img/security.png)
 
 ### HTTP と HTTPS のポートを開放
 
-![ポート開放](/aws/ec2/inband.png)
+![ポート開放](./img/inband.png)
 
 ### ルールを保存
 

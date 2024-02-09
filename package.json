@@ -26,8 +26,8 @@
   "author": "SeHub.JP",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.13",
-    "vue": "^3.3.4"
+    "vitepress": "1.0.0-rc.42",
+    "vue": "^3.4.17"
   },
   "type": "module"
 }

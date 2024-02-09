@@ -200,7 +200,7 @@ export default defineConfig({
             { text: 'EC2 って何', link: '/aws/ec2/' },
             { text: 'EC2 の開始方法', link: '/aws/ec2/new-ec2'},
             { text: 'EC2 インスタンスに接続', link: '/aws/ec2/login'},
-            { text: 'Amazon Linux 2022 初期設定', link: '/aws/ec2/setup'},
+            { text: 'Amazon Linux 2023 初期設定', link: '/aws/ec2/setup'},
           ],
         }
       ],
