@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.BX_emVE_.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"other/index.md","filePath":"other/index.md","lastUpdated":1693964467000}'),r={name:"other/index.md"};function o(n,s,d,c,i,p){return a(),t("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
